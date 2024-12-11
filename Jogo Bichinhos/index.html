@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Joginho</title>
+  </head>
+  <body>
+    <div id="tudo">
+      <div id="bg">
+        <img src="./imgs/Plant - BG2.png" alt="" id="backGround" />
+      </div>
+      <div id="Jogo">
+        <div id="START"></div>
+        <div id="FIM" style="visibility: hidden;">
+          <div class="text">
+            <h4> Meu pequeno fotografo! Deixe me ver...</h4>
+            <h3 id="Acerto"></h3>
+            <button class="button" type="button" id="closeWindon">Certo</button>
+          </div>
+        </div>
+        <div id="INFO">
+          <div class="text">
+            <p id="level">Level: 5</p>
+            <h4 class="titulo">Vamos nessa<br />pequeno fotografo!</h4>
+            <h3 class="nomeFrase">
+              Tire um foto do <span id="nome">NomeAnimal</span>,<br />Vamos ver
+              como estão seus reflexos!
+            </h3>
+            <button class="button" type="button" id="startBtt">
+              Vamos nessa!
+            </button>
+          </div>
+          <img src="" alt="" id="fotoAnimal" />
+        </div>
+        
+      </div>
+      <div id="border"></div>
+    </div>
+    <script type="module" src="/js/script.js"></script>
+  </body>
+</html>
